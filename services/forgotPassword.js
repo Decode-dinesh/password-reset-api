@@ -35,8 +35,8 @@ const forgotPassword = {
 
           // generating link for resetting the password
 
-          const link = `https://forgot-password-fullstack-aravind.netlify.app/users/forgot-password/${data._id}/${token}`;
-          //forgot-password-fullstack.herokuapp.com/users/login/forgot-password/${data._id}/${token}
+          const link = `https://61cda2995ab84b05791b4099--wonderful-wescoff-773762.netlify.app/login/${data._id}/${token}`;
+          
           https: await send_mail(
             data.email,
             "Link to reset the password",
